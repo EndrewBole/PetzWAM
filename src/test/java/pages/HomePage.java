@@ -18,6 +18,7 @@ public class HomePage extends Base {
 
     public HomePage(WebDriver driver) {
         super(driver);
+        this.driver = driver;
     }
 
     public void search(String product){
